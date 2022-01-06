@@ -6,6 +6,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h2{
+    font-family: 'Yellowtail', cursive;
+}
+
+section{
+    border: dotted 0.1vw #CCC;
+    width: 21.8vw;
+    margin: 1vw;
+    padding: 1vw;
+    display: inline-block;
+}
+
+img,iframe{
+    width: 21.8vw;
+    height: 13.65vw;
+    margin: -1.1vw;
+}
+
 /*
 Add some style blocks below this line to style the cards.
 Feel free to borrow from Exercise 1.
@@ -15,10 +33,37 @@ Feel free to borrow from Exercise 1.
 /* Tablet Media Query */
 @media only screen and (max-width: 1000px) {
 
+    section{
+        border: dotted 0.1vw #CCC;
+        width: 46.3vw;
+        margin: 1vw;
+        padding: 1vw;
+        display: inline-block;
+    }
+    
+    img, iframe{
+        width: 46.3vw;
+        height: 29vw;
+        margin: -1.1vw;
+    }
+
 }
 
 /* Mobile Phone Media Query */
 @media only screen and (max-width: 600px) {
 
+    section{
+        border: dotted 0.1vw #CCC;
+        width: 95.8vw;
+        margin: 1vw;
+        padding: 1vw;
+        display: inline-block;
+    }
+    
+    img,iframe{
+        width: 95.8vw;
+        height:60vw;
+        margin: -1.1vw;
+    }
     
 }
